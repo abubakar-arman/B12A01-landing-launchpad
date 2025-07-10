@@ -141,3 +141,16 @@ body {
     color: #B3B3B3;
     font-size: 16px;
 }
+
+/* get started section */
+.get-started {
+    text-align: center;
+    background-color: #FFF;
+    border-radius: 10px;
+    margin: 0 150px;
+    padding: 70px 150px;
+}
+.get-started div {
+    text-align: center;
+    margin-bottom: 25px;
+}
