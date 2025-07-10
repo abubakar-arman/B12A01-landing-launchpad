@@ -154,3 +154,6 @@ body {
     text-align: center;
     margin-bottom: 25px;
 }
+.get-started img {
+    border-radius: 50px;
+}
