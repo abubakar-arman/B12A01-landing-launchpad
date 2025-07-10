@@ -157,3 +157,44 @@ body {
 .get-started img {
     border-radius: 50px;
 }
+
+/* newsletter section styles */
+.newsletter {
+    display: flex;
+    justify-content: space-between;
+    margin: 95px 150px;
+    /* padding: 70px 0; */
+    gap: 115px;
+}
+.newsletter .section-title {
+    font-size: 100px;
+    font-weight: bold;
+    width: 50%;
+
+}
+.newsletter form {
+    width: 50%;
+}
+.newsletter label, .newsletter input, .newsletter textarea {
+    display: block;
+    border-radius: 10px;
+}
+.newsletter label {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.newsletter input:not(.btn-primary), .newsletter textarea {
+    background-color: #FFF;
+    padding: 20px 0 20px 30px;
+    width: 95%;
+    height: 20px;
+    border: 1px solid gray;
+}
+.newsletter .btn-primary {
+    width: 100%;
+    margin-top: 15px;
+}
+.newsletter textarea {
+    height: 100px;
+}
