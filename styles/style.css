@@ -1,5 +1,7 @@
 /* common styles */
-
+body {
+    background-color: #F5F8FF;
+}
 .raleway-regular {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -84,4 +86,58 @@
     color: #4E47FF;
     font-size: 80px;
     font-weight: bold;
+}
+
+/* review section styles */
+.reviews {
+    text-align: center;
+    margin: 130px 150px;
+}
+.reviews-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    gap: 20px;
+}
+.review {
+    padding: 24px;
+    background-color: #FFF;
+    box-shadow: 5px 5px 10px lightblue;
+    border-radius: 15px;
+    width: 30%;
+}
+.stars {
+    background-image: url("../assets/icon-star.png");
+    width: 90px;
+    border: none;
+    margin-bottom: 25px;
+}
+.review-title {
+    font-size: 24px;
+    font-weight: 600;
+}
+.review-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.reviewer-profile {
+    display: flex;
+    /* width: 4px; */
+}
+.reviewer-profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 9999px;
+}
+.review-info {
+    margin-left: 10px;
+}
+.reviewer-name {
+    font-size: 16px;
+    color: #757575;
+    font-weight: 600;
+}
+.review-date {
+    color: #B3B3B3;
+    font-size: 16px;
 }
