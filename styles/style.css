@@ -1,9 +1,18 @@
 /* common styles */
+* {
+    margin: 0;
+}
 body {
     background-color: #F5F8FF;
 }
 .raleway-regular {
   font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.inter-regular {
+  font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
@@ -20,10 +29,6 @@ body {
 }
 .btn-primary:hover {
     background-color: darkgoldenrod;
-}
-* {
-    margin: 0;
-    /* border: 1px solid black; */
 }
 .section-title {
     font-size: 42px;
@@ -197,4 +202,27 @@ body {
 }
 .newsletter textarea {
     height: 100px;
+}
+
+/* footer styles */
+footer {
+    text-align: center;
+    background-color: #FFF;
+    padding: 100px 0;
+}
+footer nav ul {
+    display: flex;
+    justify-content: center;
+}
+footer nav li {
+    list-style: none;
+    margin-left: 20px;
+}
+footer nav a {
+    text-decoration: none;
+    color: #555;
+}
+footer .section-text {
+    font-size: 16px;
+    font-weight: 600;
 }
